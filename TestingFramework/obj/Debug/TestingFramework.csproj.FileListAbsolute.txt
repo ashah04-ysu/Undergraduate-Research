@@ -1,0 +1,7 @@
+/home/abhishek/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.exe.config
+/home/abhishek/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.exe
+/home/abhishek/bench-vldb20/TestingFramework/bin/Debug/TestingFramework.pdb
+/home/abhishek/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.csprojAssemblyReference.cache
+/home/abhishek/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.csproj.CoreCompileInputs.cache
+/home/abhishek/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.exe
+/home/abhishek/bench-vldb20/TestingFramework/obj/Debug/TestingFramework.pdb
