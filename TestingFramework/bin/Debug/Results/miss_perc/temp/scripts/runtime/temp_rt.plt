@@ -12,13 +12,13 @@ set xlabel "number of missing values"
 set ylabel "running time (microseconds)" offset 1.5 
 
 plot\
-	'runtime/values/spirit_runtime.txt' index 0 using 1:2 title 'spirit' with linespoints lt 8 dt 6 lw 3 pt 6 lc rgbcolor "dark-green" pointsize 2, \
+	'runtime/values/softimp_runtime.txt' index 0 using 1:2 title 'softimp' with linespoints lt 8 dt 2 lw 3 pt 5 lc rgbcolor "dark-violet" pointsize 1.2, \
 
 
 set output "runtime/plots/temp_rt_log.eps"
 set log y
 
 plot\
-	'runtime/values/spirit_runtime.txt' index 0 using 1:2 title 'spirit' with linespoints lt 8 dt 6 lw 3 pt 6 lc rgbcolor "dark-green" pointsize 2, \
+	'runtime/values/softimp_runtime.txt' index 0 using 1:2 title 'softimp' with linespoints lt 8 dt 2 lw 3 pt 5 lc rgbcolor "dark-violet" pointsize 1.2, \
 
 

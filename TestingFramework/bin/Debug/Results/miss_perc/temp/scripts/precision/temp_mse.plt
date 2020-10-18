@@ -13,17 +13,17 @@ set xlabel "number of missing values"
 set ylabel "mean squared error" offset 1.5 
 
 plot\
-	'error/mse/MSE_spirit.dat' index 0 using 1:2 title 'spirit' with linespoints lt 8 dt 6 lw 3 pt 6 lc rgbcolor "dark-green" pointsize 2, \
+	'error/mse/MSE_softimp.dat' index 0 using 1:2 title 'softimp' with linespoints lt 8 dt 2 lw 3 pt 5 lc rgbcolor "dark-violet" pointsize 1.2, \
 
 
 set output "error/plots/temp_rmse.eps"
 set ylabel "root mean squared error" offset 1.5 
 
 plot\
-	'error/rmse/RMSE_spirit.dat' index 0 using 1:2 title 'spirit' with linespoints lt 8 dt 6 lw 3 pt 6 lc rgbcolor "dark-green" pointsize 2, \
+	'error/rmse/RMSE_softimp.dat' index 0 using 1:2 title 'softimp' with linespoints lt 8 dt 2 lw 3 pt 5 lc rgbcolor "dark-violet" pointsize 1.2, \
 
 set output "error/plots/temp_mae.eps"
 set ylabel "mean absolute error" offset 1.5 
 
 plot\
-	'error/mae/MAE_spirit.dat' index 0 using 1:2 title 'spirit' with linespoints lt 8 dt 6 lw 3 pt 6 lc rgbcolor "dark-green" pointsize 2, \
+	'error/mae/MAE_softimp.dat' index 0 using 1:2 title 'softimp' with linespoints lt 8 dt 2 lw 3 pt 5 lc rgbcolor "dark-violet" pointsize 1.2, \
