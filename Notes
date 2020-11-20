@@ -1,3 +1,3 @@
 Ran two algorithms (TRMF and Softimp)
-With two datasets (airtemp_1 and mels_S)
+With 4 datasets (hvac_N, hvac_S, airtemp_1, and mels_S)
 with all scenarios
