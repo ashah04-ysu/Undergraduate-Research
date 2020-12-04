@@ -11,7 +11,7 @@ output_mae <- paste(global_path, "mae/MAE_", sep="");
 output_cor <- paste(global_path, "correlation.dat", sep="");
 input_missingmat <- paste("recovery/values/recovered_matrices/recoveredMat", sep="");
 
-list_algos <- c("trmf","softimp");
+list_algos <- c("trmf","softimp","cdrec_k2","cdrec_k1","dynammo","grouse","stmvl");
 
 #########################
 
