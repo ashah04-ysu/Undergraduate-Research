@@ -1,3 +1,30 @@
+# Conclusion
+
+The Authors Tested Most Distinctive Features That Appears In The Datasets
+Using, 
+High-degree Of Correlation Among Series, Such As Those In Temperature Data.
+Mixed Correlation, Such As Those In Greenhouse Gas Data.
+Irregularities, Such As Those In Household Power Consumption Or Water Discharge Data.
+Blackouts.
+Size Of The Dataset, Either In Length Or Number Of Series.
+
+They Suggested A Number Of Research Efforts Such As Time-series Characteristics Discovery, Missing-block Initialization, Automatic Parameterization And Hardware Acceleration, That Could Increase The Number Of Dimensions With Precise Algorithms And/or Allow Selection Of An Algorithm Without First Knowing The Properties Of The Data Series.
+
+During Their Research They Also Achieved Some High-impact Optimization Techniques, That Are Improved Memory Management, Support For Sparse Matrices, Efficient Computation Of Algebraic Operations.
+
+
+Their Results Show That, In All Cases, No Single Algorithm Delivers High Precision. They Substantiated This Outcome And Other Findings And Provided A Systematic Method For Navigating Algorithm Choices. They Also Discussed Research Issues That Remain Unresolved, Especially In Relation To Achieving More Adaptable And Scalable Algorithms.
+
+
+
+
+
+
+
+
+
+
+
 # ImputeBench:  Benchmark of Imputation Techniques in Time Series  
 
 ImputeBench implements 13 recovery techniques for blocks of missing values in time series and evaluates their precision and runtime on various real-world time series datasets using different recovery scenarios. Technical details can be found in our 
